@@ -956,7 +956,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Agent: {fileID: 1112826214}
-  Surface: {fileID: 0}
+  Surface: {fileID: 1007932016}
   Destination: {fileID: 1288823878}
   DoorAnimation: {fileID: 1997706026}
   WinTransform: {fileID: 911803095}
