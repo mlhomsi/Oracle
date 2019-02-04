@@ -14,6 +14,7 @@ public class SceneController : MonoBehaviour
     public GameObject Door;
 
     public Transform WinTransform;
+    public Transform StartPosition;
     public float waitTime = 3f;
 
     // Start is called before the first frame update
@@ -31,10 +32,14 @@ public class SceneController : MonoBehaviour
 
     public void OpenDoor01()
     {
-       // Door.SetActive(false);
+        // Door.SetActive(false);
         //DoorAnimation.SetTrigger("OpenDoor");
         //Surface.BuildNavMesh();
         StartCoroutine(Wait());
+    }
 
+    public void GoBack()
+    {
+        Agent.SetDestination(StartPosition.position);
     }
 }
