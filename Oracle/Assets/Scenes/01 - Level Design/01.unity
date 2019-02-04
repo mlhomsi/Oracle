@@ -89,7 +89,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1005,7 +1005,7 @@ MonoBehaviour:
   Agent: {fileID: 849331526}
   Surface: {fileID: 1007932016}
   Destination: {fileID: 1288823878}
-  Door: {fileID: 0}
+  Door: {fileID: 195959306}
   WinTransform: {fileID: 911803095}
   waitTime: 0.5
 --- !u!4 &557930786
@@ -1177,6 +1177,7 @@ GameObject:
   - component: {fileID: 849331526}
   - component: {fileID: 849331525}
   - component: {fileID: 849331524}
+  - component: {fileID: 849331529}
   m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
@@ -1293,6 +1294,25 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 1, z: -0.00000008940697}
+--- !u!95 &849331529
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849331522}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 255c744d79c8df349b48730b4f3d6505, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &906444435
 GameObject:
   m_ObjectHideFlags: 0
@@ -1592,7 +1612,7 @@ MonoBehaviour:
   m_Center: {x: 0, y: 2, z: 0}
   m_LayerMask:
     serializedVersion: 2
-    m_Bits: 33079
+    m_Bits: 32823
   m_UseGeometry: 0
   m_DefaultArea: 0
   m_IgnoreNavMeshAgent: 1
@@ -2177,7 +2197,7 @@ PrefabInstance:
     - target: {fileID: 5159028112612022467, guid: 3971b56521863db43b1322c9cbcb741e,
         type: 3}
       propertyPath: m_Layer
-      value: 8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5159028112612022520, guid: 3971b56521863db43b1322c9cbcb741e,
         type: 3}
