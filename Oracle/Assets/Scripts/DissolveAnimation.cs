@@ -31,6 +31,11 @@ public class DissolveAnimation : MonoBehaviour
             ThisDoor.layer = 8;
             Surface.BuildNavMesh();
         }
+
+        if(IsDissolving)
+        {
+            StartCoroutine(Dissolve());
+        }
     }
     public void TriggerDissolve()
     {
