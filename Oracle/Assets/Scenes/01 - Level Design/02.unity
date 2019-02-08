@@ -89,7 +89,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -2250,19 +2250,6 @@ CapsuleCollider:
   m_Height: 0.012272811
   m_Direction: 2
   m_Center: {x: -0.0026253366, y: -0.0019341501, z: -0.0047770645}
---- !u!114 &1520299233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1520299228}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7f564d7da3e545b3a185510725a46de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 849331522}
 --- !u!1 &1528382056
 GameObject:
   m_ObjectHideFlags: 0
