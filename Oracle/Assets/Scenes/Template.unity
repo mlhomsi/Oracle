@@ -968,6 +968,7 @@ MonoBehaviour:
   Destination: {fileID: 1288823878}
   Door: {fileID: 1997706020}
   WinTransform: {fileID: 911803095}
+  StartPosition: {fileID: 0}
   waitTime: 0.5
 --- !u!4 &557930786
 Transform:
