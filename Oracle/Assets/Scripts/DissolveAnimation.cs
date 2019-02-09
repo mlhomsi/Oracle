@@ -13,6 +13,7 @@ public class DissolveAnimation : MonoBehaviour
     private float CurrentStage;
 
     public NavMeshSurface Surface;
+    
 
 
 
